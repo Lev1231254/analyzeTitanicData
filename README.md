@@ -17,3 +17,4 @@
 
 - Best-performing model: RandomForestClassifier
 - Achieved approximately 80% accuracy on unseen data
+- Achieved approximately 83% accuracy during cross validation
