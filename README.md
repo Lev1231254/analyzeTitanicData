@@ -1,5 +1,7 @@
 # Analyzing Titanic Data
 
+Whole analysis is in Jupyter notebook
+
 ## Goals
 
 - Visualize the dataset
