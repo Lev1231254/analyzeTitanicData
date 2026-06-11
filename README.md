@@ -22,6 +22,7 @@ git clone https://github.com/Lev1231254/analyzeTitanicData.git
 cd analyzeTitanicData
 python -m venv .venv
 .venv\Scripts\activate
+pip install -r requirements.txt
 jupyter notebook
 ```
 Open `analysis.ipynb` and run all cells.
@@ -32,6 +33,7 @@ git clone https://github.com/Lev1231254/analyzeTitanicData.git
 cd <analyzeTitanicData
 python3 -m venv .venv
 source .venv/bin/activate
+pip install -r requirements.txt
 jupyter notebook
 ```
 Open `analysis.ipynb` and run all cells.
