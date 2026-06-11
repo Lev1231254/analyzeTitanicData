@@ -1,11 +1,11 @@
-# Description
+# Analyze Titanic Data
 
 This educational project explores the Titanic Dataset and builds a ML model that predicts the passanger's probability of survival.
 The complete analysis is available in the Jupyter notebook `analysis.ipynb`
 
-The final model achieved mean test accuracy of approximately 82.7%
+The final model achieved mean test accuracy of approximately 82.5%
 
-<img width="562" height="455" alt="изображение" src="https://github.com/user-attachments/assets/cefcb446-c8cb-49a6-b479-17a222b0bdca" />
+<img width="554" height="455" alt="изображение" src="https://github.com/user-attachments/assets/5174d693-d249-42b5-94dc-a84712f15710" />
 
 
 
@@ -14,7 +14,6 @@ The final model achieved mean test accuracy of approximately 82.7%
 ### Requirements
 
 * Python 3.10 or newer
-* Git
 
 ### Windows
 ```powershell
@@ -56,7 +55,17 @@ Open `analysis.ipynb` and run all cells.
 - Decision Tree and Random Forest classification models
 
 ### Results
-
+- Features, that correlate to survival the most:
+  - Passenger class
+  - Sex
+  - Age
+  - Amount of children and parents
+  - Fare
+  - Adult male
+  - Being alone
 - Best-performing model: RandomForestClassifier
-- Achieved approximately 82% accuracy on unseen data
-- Achieved approximately 83% accuracy during cross validation
+- Achieved approximately 82% accuracy after Hyperparameter tuning
+  
+  <img width="562" height="455" alt="изображение" src="https://github.com/user-attachments/assets/c4b30a3d-d648-4355-b14c-17e89aede680" />
+
+  
